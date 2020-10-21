@@ -1,4 +1,4 @@
-# bird
+# Birds
 
 A new Flutter project.
 
