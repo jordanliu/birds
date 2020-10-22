@@ -1,6 +1,7 @@
 # Birds
 
-![Birds](./.github/cover.png)
+![Birds](https://user-images.githubusercontent.com/9423525/96825284-5bebe180-13f6-11eb-827a-acbcd542f5e8.png)
+
 
 ## Getting Started
 
