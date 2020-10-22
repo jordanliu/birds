@@ -22,6 +22,9 @@ class DetailsPage extends StatelessWidget {
                       padding: const EdgeInsets.fromLTRB(10.0, 32.0, 22.0, 2.0),
                       child: Row(children: <Widget>[
                         IconButton(
+                          hoverColor: Colors.transparent,
+                          splashColor: Colors.transparent,
+                          highlightColor: Colors.transparent,
                           icon: Icon(Icons.arrow_back_ios),
                           color: Colors.black,
                           onPressed: () {

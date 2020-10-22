@@ -90,7 +90,7 @@ class _HomePageState extends State<HomePage> {
                                             birds[index].name,
                                             style: TextStyle(
                                               fontFamily: 'Avenir',
-                                              fontSize: 44,
+                                              fontSize: 36,
                                               color: Colors.white,
                                               fontWeight: FontWeight.w900,
                                             ),
