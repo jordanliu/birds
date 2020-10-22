@@ -11,9 +11,9 @@ class Bird {
 List<Bird> birds = [
   Bird(1,
       name: "Swallow Tail",
-      description: "I fly",
-      thumbnail:
-          "https://i.pinimg.com/originals/1f/a2/67/1fa2670a8add37a4f9c5f3843e5b6380.gif",
+      description:
+          "The red-billed streamertail (Trochilus polytmus), also known as the doctor bird, scissor-tail or scissors tail hummingbird, is indigenous to Jamaica, where it is the most abundant and widespread member of the hummingbird family. ",
+      thumbnail: "assets/humming.png",
       images: [
         "https://www.hopkinsmedicine.org/sebin/z/j/Hummingbird.jpg",
         "https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2018/12/IMG_9127.jpg?itok=156LUKD5",
@@ -21,7 +21,7 @@ List<Bird> birds = [
   Bird(2,
       name: "Humming Bird",
       description: "I too canfly",
-      thumbnail: "https://pngimg.com/uploads/hummingbird/hummingbird_PNG78.png",
+      thumbnail: "assets/humming.png",
       images: [
         "https://www.hopkinsmedicine.org/sebin/z/j/Hummingbird.jpg",
         "https://www.princeton.edu/sites/default/files/styles/half_2x/public/images/2018/12/IMG_9127.jpg?itok=156LUKD5",
