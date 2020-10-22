@@ -1,6 +1,7 @@
 # Birds
 
-A new Flutter project.
+![Birds](https://user-images.githubusercontent.com/9423525/96824603-ce5bc200-13f4-11eb-823c-ccce07551417.png)
+
 
 ## Getting Started
 
