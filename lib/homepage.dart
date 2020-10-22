@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_swiper/flutter_swiper.dart';
-import 'bird.dart';
+import 'birds.dart';
 import 'detailspage.dart';
 import 'bottomnavigation.dart';
 
@@ -34,10 +34,13 @@ class _HomePageState extends State<HomePage> {
                           ),
                           textAlign: TextAlign.left,
                         ),
+                        SizedBox(
+                          height: 30,
+                        ),
                       ],
                     )),
                 Container(
-                    height: 500,
+                    height: 450,
                     padding: const EdgeInsets.all(5),
                     child: Swiper(
                       itemCount: birds.length,
@@ -46,7 +49,8 @@ class _HomePageState extends State<HomePage> {
                         builder: DotSwiperPaginationBuilder(
                             color: Colors.grey,
                             activeColor: Colors.black,
-                            activeSize: 10,
+                            activeSize: 8,
+                            size: 8,
                             space: 4),
                       ),
                       itemBuilder: (context, index) {
@@ -69,11 +73,12 @@ class _HomePageState extends State<HomePage> {
                                 children: <Widget>[
                                   SizedBox(height: 100),
                                   Card(
-                                    elevation: 12,
+                                    clipBehavior: Clip.antiAlias,
+                                    elevation: 4,
                                     shape: RoundedRectangleBorder(
                                       borderRadius: BorderRadius.circular(15),
                                     ),
-                                    color: Colors.white,
+                                    color: Colors.black,
                                     child: Padding(
                                       padding: const EdgeInsets.all(32.0),
                                       child: Column(
@@ -86,7 +91,7 @@ class _HomePageState extends State<HomePage> {
                                             style: TextStyle(
                                               fontFamily: 'Avenir',
                                               fontSize: 44,
-                                              color: Colors.black,
+                                              color: Colors.white,
                                               fontWeight: FontWeight.w900,
                                             ),
                                             textAlign: TextAlign.left,
@@ -101,13 +106,13 @@ class _HomePageState extends State<HomePage> {
                                                 style: TextStyle(
                                                   fontFamily: 'Avenir',
                                                   fontSize: 18,
-                                                  color: Colors.black,
+                                                  color: Colors.white,
                                                   fontWeight: FontWeight.w500,
                                                 ),
                                               ),
                                               Icon(
                                                 Icons.arrow_forward,
-                                                color: Colors.black,
+                                                color: Colors.white,
                                               ),
                                             ],
                                           ),

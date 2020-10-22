@@ -7,19 +7,19 @@ class BottomNavigation extends StatelessWidget {
       backgroundColor: Colors.white,
       items: const <BottomNavigationBarItem>[
         BottomNavigationBarItem(
-          icon: Icon(Icons.home),
+          icon: Icon(Icons.apps),
           label: 'Home',
         ),
         BottomNavigationBarItem(
           icon: Icon(Icons.reorder),
-          label: 'List',
+          label: 'Birds',
         ),
         BottomNavigationBarItem(
-          icon: Icon(Icons.link),
-          label: 'GitHub',
+          icon: Icon(Icons.help_outline),
+          label: 'About',
         ),
       ],
-      selectedItemColor: Colors.black,
+      selectedItemColor: Colors.black54,
     );
   }
 }
