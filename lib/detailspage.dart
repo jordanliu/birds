@@ -35,7 +35,7 @@ class DetailsPage extends StatelessWidget {
                           bird.name,
                           style: TextStyle(
                             fontFamily: 'Avenir',
-                            fontSize: 44,
+                            fontSize: 32,
                             color: Colors.black,
                             fontWeight: FontWeight.w900,
                           ),
@@ -48,7 +48,7 @@ class DetailsPage extends StatelessWidget {
                         child: Align(
                           alignment: Alignment.bottomLeft,
                           child: Text(
-                            bird.conservationStatus,
+                            "Conservation: ${bird.conservationStatus}",
                             style: TextStyle(
                               fontFamily: 'Avenir',
                               fontSize: 18,
