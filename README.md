@@ -11,6 +11,8 @@ cd birds
 flutter run
 ```
 
+App is now running, start editing!
+
 ## Add New Birds
 
-Currently birds are stored in an array in lib/birds.dart, simply add a new item to the array and the corresponding thumbnail of the bird in the assets/ folder. The preferred image of a thumbnail is a high quality transparent bird with a subtle shadow.
+Currently birds are stored in an array in lib/birds.dart, simply add a new item to the array and the corresponding thumbnail of the bird in the assets/ folder. The preferred image of a thumbnail is a transparent bird with a subtle shadow.
